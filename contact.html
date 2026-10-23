@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | Gameplay Over Graphics</title>
+<meta name="description" content="Get in touch with Gameplay Over Graphics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="index.html">Gameplay Over Graphics</a>
+<nav aria-label="Main">
+<a href="index.html">Home</a>
+<a href="games.html">Games</a>
+<a href="fortifi-privacy.html">Fortifi Privacy</a>
+<a href="contact.html" aria-current="page">Contact Us</a>
+</nav></div></header>
+<main><div class="wrap">
+<h1>Contact us</h1>
+<p class="lede">Questions, bug reports or privacy requests. We read everything.</p>
+<form action="mailto:you@example.com" method="post" enctype="text/plain">
+<label>Name<input name="name" autocomplete="name" required></label>
+<label>Email<input type="email" name="email" autocomplete="email" required></label>
+<label>Message<textarea name="message" required></textarea></label>
+<button class="btn" type="submit">Send message</button>
+</form>
+<p class="section">Or email us directly at <a href="mailto:you@example.com">you@example.com</a>.</p>
+</div></main>
+<footer><div class="wrap">
+<span>&copy; <span id="y">2026</span> Gameplay Over Graphics</span>
+<span><a href="fortifi-privacy.html">Privacy policy</a> &middot; <a href="contact.html">Contact</a></span>
+</div></footer>
+<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+</body>
+</html>
